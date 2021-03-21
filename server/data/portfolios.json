@@ -1,0 +1,29 @@
+[
+    {
+      "id": "1",
+      "nick_name": "CrisBIB",
+      "current_job": "Programadora Front-End",
+      "previous_job": "Psicóloga y técnica de proyectos sociales.",
+      "power": "Mi súper poder es... escucho atenta, pienso tranquila y tomo decisiones segura.",
+      "programming_languages": ["HTLM Y CSS", "JS", "REACT","NODE JS", "SQLite"],
+      "portfolio": "https://github.com/CrisBIB"
+    },
+    {
+      "id": "2",
+      "nick_name": "Berta Pluma",
+      "current_job": "Programadora Front-End",
+      "previous_job": "Fotógrafa y comunicadora on-offline.",
+      "power": "Mi super poder es… tender puentes entre clientes y técnicos a modo de traductora simultánea.",
+      "programming_languages": ["HTLM Y CSS", "JS", "REACT","NODE JS", "SQLite"],
+      "portfolio": "https://github.com/bertapsasn"
+    },
+    {
+      "id": "3",
+      "nick_name": "Marta Cacio",
+      "current_job": "Programadora Front-End",
+      "previous_job": "",
+      "power": "",
+      "programming_languages": ["HTLM Y CSS", "JS", "REACT","NODE JS", "SQLite"],
+      "portfolio": "https://github.com/Martcacio"
+    }
+  ]

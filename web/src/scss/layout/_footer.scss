@@ -1,0 +1,19 @@
+.footer {
+  font-family: "Comfortaa", cursive;
+  font-weight: 300;
+  font-size: small;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  &__left {
+    margin-top: 10px;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    &--logo {
+      width: 75px;
+      margin-top: 3px;
+    }
+  }
+}
