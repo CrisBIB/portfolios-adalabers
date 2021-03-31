@@ -1,5 +1,26 @@
-```
-Delicious Profile Card
+![image](https://github.com/CrisBIB/portfolio-women-tech/blob/master/web/src/images/portada.png)
+
+## Hola Adalabers!
+
+Me dirijo en primer lugar a vosotras porque esta idea es fruto de lo mucho que me inspiráis cuando trabajo con vosotras, navego por vuestro proyectos (de programación, artísticos, de vida...) o cuando simplemente compartimos un ratillo de e-charla
+
+## Hola empresas!
+
+## Hola visitantes!
+
+<!--```
+ Delicious Profile Card
+
+ Si quieres instalar y ejecutar el proyecto completo, sigue los siguientes pasos:
+
+1. Clona este repositorio
+2. Entra en la carpeta raíz
+3. Ejecuta en la terminal `npm install`
+4. Para lanzar el proyecto: ejecuta en la terminal `npm start` o `npm run dev`
+   Si quieres probar o modificar la parte del front-end con React:
+5. Entra en la carpeta `/web/`
+6. Ejecuta npm install
+7. Para lanzar sólo la parte front-end del proyecto, ejecuta `npm start` dentro de la carpeta `/web/`
 
 ├── node_modules
 ├── public
@@ -66,3 +87,4 @@ Delicious Profile Card
 ├── package-lock.json
 └── package.json
 ```
+ -->
