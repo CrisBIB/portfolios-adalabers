@@ -1,4 +1,8 @@
-![image](./web/public/assets/images/portada.png)
+![image-in-local](./web/public/assets/images/portada.png)
+
+<!-- ![image-in-dev](https://github.com/CrisBIB/portfolio-women-tech/blob/dev/web/src/images/portada.png) -->
+
+<!-- ![image-in master](https://github.com/CrisBIB/portfolio-women-tech/blob/master/web/src/images/portada.png) -->
 
 ## Hola Adalabers!
 
@@ -55,7 +59,7 @@ También puedo mostrar la estructura de carpetas. Como se puede ver, estoy utili
     ├── .gitignore
     ├── README.md
 
-Algo de back-end ya habréis intuido. Aquí estará el mayor reto, junto con el testing. Pero lo sacaré adelante, con tiempo y confianza (mía y vuestra).
+Algo de back-end ya habréis intuido. Aquí estará el mayor reto, junto con el testing. Pero lo sacaré adelante, solo necesito tiempo y confianza (sobretodo propia).
 
 ## Hola visitantes!
 
