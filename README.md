@@ -1,4 +1,4 @@
-![image](https://github.com/CrisBIB/portfolio-women-tech/blob/master/web/src/images/portada.png)
+![image](https://github.com/CrisBIB/portfolio-women-tech/blob/dev/web/src/images/portada.png)
 
 ## Hola Adalabers!
 
