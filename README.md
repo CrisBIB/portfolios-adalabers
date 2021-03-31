@@ -1,6 +1,6 @@
-![image-in-local](./web/public/assets/images/portada.png)
+<!-- ![image-in-local](./web/public/assets/images/portada.png) -->
 
-<!-- ![image-in-dev](https://github.com/CrisBIB/portfolio-women-tech/blob/dev/web/src/images/portada.png) -->
+![image-in-dev](https://github.com/CrisBIB/portfolio-women-tech/blob/dev/web/src/images/portada.png)
 
 <!-- ![image-in master](https://github.com/CrisBIB/portfolio-women-tech/blob/master/web/src/images/portada.png) -->
 
