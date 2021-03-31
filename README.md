@@ -1,12 +1,65 @@
-![image](https://github.com/CrisBIB/portfolio-women-tech/blob/dev/web/src/images/portada.png)
+![image](./web/public/assets/images/portada.png)
 
 ## Hola Adalabers!
 
-Me dirijo en primer lugar a vosotras porque esta idea es fruto de lo mucho que me inspiráis cuando trabajo con vosotras, navego por vuestro proyectos (de programación, artísticos, de vida...) o cuando simplemente compartimos un ratillo de e-charla
+Me dirijo en primer lugar a vosotras porque esta idea es fruto de lo mucho que me inspiráis cuando trabajamos juntas, cuando descubro vuestros proyectos (de programación y artísticos), o cuando simplemente disfrutamos de un rato de e-charla para compartir ideas, inquietudes y experiencias.
+
+Estoy plenamente convencida de que es fundamental que haya más personas como nosotras sumando, creando y decidiendo en el mundo IT: mujeres profesionales, valientes y resilientes. Por eso, nos dedico este proyecto, confiando en que, con mucho trabajo, vuestro apoyo y el de Adalab, llegue a buen puerto y se convierta en una herramienta más para darnos a conocer y encontrar nuestra primera oportunidad como programadoras.
 
 ## Hola empresas!
 
+Si habéis llegado hasta este repo, y estáis dedicando tiempo a leerme, es que algo he hecho bien; y eso ya me satisface. Este Readme, por ahora, es más una declaración de intenciones, que una forma de documentar el proyecto. Sin embargo, la idea es alimentarlo de contenido técnico según vaya progresando en su desarrollo.
+
+Hasta este punto, puedo contar que la idea original, el [diseño creativo](https://www.canva.com/design/DAEYKV2pubY/DDNXDQA-H0fgJRz2_3Cukg/watch?utm_content=DAEYKV2pubY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) y el [código](https://github.com/CrisBIB/portfolio-women-tech/tree/dev/web/src) son ©CrisBIB. Para la arquitectura y funcionalidad, cuento con las orientaciones de nuestros profesores de Adalab: Miguel M., Iván G. y Dayana R.
+
+También puedo mostrar la estructura de carpetas. Como se puede ver, estoy utilizando HTML5 y SASS y JS para el desarrollo front-end:
+
+    ├── server
+    │ ├── data
+    │ ├── src
+    │ ├── index.js
+    ├── web
+    │ ├── node_modules
+    │ ├── public
+    │ ├── src
+    │ │ ├── html
+    │ │ │ ├── partials
+    │ │ │ │ ├── adalabers
+    │ │ │ │ │ └── main.html
+    │ │ │ │ ├── companies
+    │ │ │ │ │ └── main.html
+    │ │ │ │ ├── index
+    │ │ │ │ │ └── header.html
+    │ │ │ │ │ └── main.html
+    │ │ │ │ ├── visitors
+    │ │ │ │ │ └── main.html
+    │ │ │ │ └── anchors.html
+    │ │ │ │ └── footer.html
+    │ │ │ │ └── topMenu.html
+    │ │ │ └── adalabers.html
+    │ │ │ └── companies.html
+    │ │ │ └── index.html
+    │ │ │ └── visitors.js
+    │ │ ├── images
+    │ │ ├── js
+    │ │ │ └── main.js
+    │ │ ├── scss
+    │ │ │ ├── components
+    │ │ │ ├── core
+    │ │ │ ├── layout
+    │ │ │ ├── pages
+    │ │ │ └── main.scss
+    │ │ └── index.js
+    ├── package-lock.json
+    ├── package.json
+    ├── .gitignore
+    ├── README.md
+
+Algo de back-end ya habréis intuido. Aquí estará el mayor reto, junto con el testing. Pero lo sacaré adelante, con tiempo y confianza (mía y vuestra).
+
 ## Hola visitantes!
+
+Visitantes... pronto tendré más que mostrar.
 
 <!--```
  Delicious Profile Card
