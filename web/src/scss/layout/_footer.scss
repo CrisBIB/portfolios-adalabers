@@ -5,6 +5,9 @@
   padding: 10px 30px;
   display: flex;
   justify-content: space-between;
+  @media all and (min-width: 600px) {
+    padding: 20px 50px;
+  }
   &__left {
     margin-top: 10px;
   }
@@ -14,6 +17,10 @@
     &--logo {
       width: 75px;
       margin-top: 3px;
+      @media all and (min-width: 600px) {
+        width: 100px;
+        margin-top: 8px;
+      }
     }
   }
 }
