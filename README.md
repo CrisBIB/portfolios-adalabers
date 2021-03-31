@@ -1,8 +1,8 @@
 <!-- ![image-in-local](./web/public/assets/images/portada.png) -->
 
-![image-in-dev](https://github.com/CrisBIB/portfolio-women-tech/blob/dev/web/src/images/portada.png)
+<!-- ![image-in-dev](https://github.com/CrisBIB/portfolio-women-tech/blob/dev/web/src/images/portada.png) -->
 
-<!-- ![image-in master](https://github.com/CrisBIB/portfolio-women-tech/blob/master/web/src/images/portada.png) -->
+![image-in master](https://github.com/CrisBIB/portfolio-women-tech/blob/master/web/src/images/portada.png)
 
 ## Hola Adalabers!
 
@@ -21,7 +21,7 @@ También puedo mostrar la estructura de carpetas. Como se puede ver, estoy utili
     ├── server
     │ ├── data
     │ ├── src
-    │ ├── index.js
+    │ │ └── index.js
     ├── web
     │ ├── node_modules
     │ ├── public
