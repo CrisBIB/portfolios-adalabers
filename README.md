@@ -8,15 +8,15 @@
 
 Me dirijo en primer lugar a vosotras porque esta idea es fruto de lo mucho que me inspiráis cuando trabajamos juntas, cuando descubro vuestros proyectos (de programación y artísticos), o cuando simplemente disfrutamos de un rato de e-charla para compartir ideas, inquietudes y experiencias.
 
-Estoy plenamente convencida de que es fundamental que haya más personas como nosotras sumando, creando y decidiendo en el mundo IT: mujeres profesionales, valientes y resilientes. Por eso, nos dedico este proyecto, confiando en que, con mucho trabajo, vuestro apoyo y el de Adalab, llegue a buen puerto y se convierta en una herramienta más para darnos a conocer y encontrar nuestra primera oportunidad como programadoras.
+Estoy plenamente convencida de que es fundamental que haya más personas como nosotras sumando, creando y decidiendo en el mundo IT: mujeres profesionales, valientes y resilientes. Por eso, nos dedico este proyecto, confiando en que, con mucho trabajo, vuestro apoyo y el de Adalab, llegue a buen puerto y se convierta en una herramienta más para darnos a conocer y progresar como programadoras.
 
 ## Hola empresas!
 
-Si habéis llegado hasta este repo, y estáis dedicando tiempo a leerme, es que algo he hecho bien; y eso ya me satisface. Este Readme, por ahora, es más una declaración de intenciones, que una forma de documentar el proyecto. Sin embargo, la idea es alimentarlo de contenido técnico según vaya progresando en su desarrollo.
+Si habéis llegado hasta este repo, y estáis dedicando tiempo a leerme, es que algo he hecho bien; y eso ya me satisface. Por ahora, este README es más una declaración de intenciones que una forma de documentar el proyecto. Sin embargo, la idea es alimentarlo de contenido técnico según vaya progresando en su desarrollo.
 
 Hasta este punto, puedo contar que la idea original, el [diseño creativo](https://www.canva.com/design/DAEYKV2pubY/DDNXDQA-H0fgJRz2_3Cukg/watch?utm_content=DAEYKV2pubY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) y el [código](https://github.com/CrisBIB/portfolio-women-tech/tree/dev/web/src) son ©CrisBIB. Para la arquitectura y funcionalidad, cuento con las orientaciones de nuestros profesores de Adalab: Miguel M., Iván G. y Dayana R.
 
-También puedo mostrar la estructura de carpetas. Como se puede ver, estoy utilizando HTML5 y SASS y JS para el desarrollo front-end:
+En la estructura de carpetas actual, se se puede ver, estoy utilizando HTML5 y SASS y JS para el desarrollo front-end:
 
     ├── server
     │ ├── data

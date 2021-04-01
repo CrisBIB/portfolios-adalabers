@@ -1,6 +1,9 @@
 @import "core/variables";
+@import "components/topMenu";
 @import "core/reset";
 @import "layout/header";
-@import "layout/main";
 @import "layout/footer";
 @import "pages/index";
+@import "pages/adalabers";
+@import "pages/companies";
+@import "pages/visitors";

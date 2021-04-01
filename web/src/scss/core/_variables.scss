@@ -1,12 +1,24 @@
 //fonts
 $font-primary: "Comfortaa", cursive;
 
-//main colors
-$color-primary: #434693;
+//MAIN COLORS
+
+//palette 1
+/* $color-primary: #434693;
 $color-secondary: #54c6c4;
 $color-third: coral;
-$color-white: rgb(240, 248, 255);
+$color-white: rgb(240, 248, 255); */
+
+//palette 2
+$color-primary: #2b3a50;
+$color-secondary: #db8473;
+$color-third: #dadada;
+$color-fourth: #99b898;
+$color-white: rgb(255, 255, 255);
 
 //color-shadows
-$color-shadow1: rgba(0, 0, 0, 0.2);
-$color-shadow2: rgba(0, 0, 0, 0.35);
+$color-shadow1: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.06), 0 41.8px 33.4px rgba(0, 0, 0, 0.06),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+$color-shadow2: rgba(0, 0, 0, 0.8);

@@ -1,0 +1,27 @@
+.main {
+  font-size: 12px;
+  display: block;
+  color: $color-white;
+  &__list {
+    &--items {
+      margin-top: 100px;
+      padding: 20px 20px 20px 20px;
+      display: flex;
+      background: $color-primary;
+    }
+    &--numberSteps {
+      font-size: 50px;
+      font-weight: 700;
+      //   padding-top: 10px;
+    }
+    &--textSteps {
+      font-weight: 300;
+      padding: 10px 50px;
+      width: 100%;
+    }
+    &--visualSteps {
+      width: 150px;
+      margin: auto;
+    }
+  }
+}

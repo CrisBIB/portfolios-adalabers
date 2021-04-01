@@ -1,12 +1,12 @@
 .footer {
-  font-family: "Comfortaa", cursive;
+  border-top: solid 1px rgba($color-primary, 0.2);
   font-weight: 300;
   font-size: small;
-  padding: 10px 30px;
+  padding: 20px 30px;
   display: flex;
   justify-content: space-between;
   @media all and (min-width: 600px) {
-    padding: 20px 50px;
+    padding: 15px 50px;
   }
   &__left {
     margin-top: 10px;
