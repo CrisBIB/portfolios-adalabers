@@ -21,10 +21,8 @@
       text-align: center;
       color: $color-fourth;
     }
-    &__reasons {
-    }
   }
-}
-
-h2 {
+  &__reasons {
+    background: $gradient2;
+  }
 }
