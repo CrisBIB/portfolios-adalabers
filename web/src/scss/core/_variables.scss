@@ -22,3 +22,10 @@ $color-shadow1: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 22.3px 17.9px rgba(0, 0, 0, 0.06), 0 41.8px 33.4px rgba(0, 0, 0, 0.06),
   0 100px 80px rgba(0, 0, 0, 0.12);
 $color-shadow2: rgba(0, 0, 0, 0.8);
+
+//gradient
+$gradient: radial-gradient(
+  circle,
+  rgba(70, 95, 130, 1) 0%,
+  rgba(43, 58, 80, 1) 100%
+);

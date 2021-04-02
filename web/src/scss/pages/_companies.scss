@@ -1,0 +1,30 @@
+.mainCompanies {
+  font-size: 12px;
+  display: block;
+  color: $color-white;
+
+  &__claim {
+    padding: 90px 20px 50px;
+    margin-top: 90px;
+    background: $gradient;
+    list-style: none;
+    &--number {
+      font-weight: 700;
+      font-size: 80px;
+      text-align: center;
+      color: $color-secondary;
+    }
+    &--text {
+      font-weight: 300;
+      padding: 10px 20px 10px 20px;
+      width: 100%;
+      text-align: center;
+      color: $color-fourth;
+    }
+    &__reasons {
+    }
+  }
+}
+
+h2 {
+}

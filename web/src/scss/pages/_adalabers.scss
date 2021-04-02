@@ -1,27 +1,63 @@
-.main {
+.mainAdalabers {
   font-size: 12px;
   display: block;
   color: $color-white;
-  &__list {
+  &__steps {
+    padding: 90px 20px 50px;
+    background: $gradient;
+    list-style: none;
     &--items {
-      margin-top: 100px;
       padding: 20px 20px 20px 20px;
       display: flex;
-      background: $color-primary;
     }
-    &--numberSteps {
+    &--number {
       font-size: 50px;
       font-weight: 700;
-      //   padding-top: 10px;
     }
-    &--textSteps {
+    &--text {
       font-weight: 300;
-      padding: 10px 50px;
+      padding: 10px 20px 10px 20px;
       width: 100%;
     }
-    &--visualSteps {
+    &--visual {
       width: 150px;
       margin: auto;
+      align-items: center;
+      display: flex;
     }
   }
+  &__form {
+    padding: 40px;
+    color: $color-primary;
+    font-size: 14px;
+    &--label {
+      padding: 10px;
+      margin: 0;
+    }
+    &--input {
+      &::placeholder {
+        font-size: 11px;
+      }
+    }
+    &--button {
+      margin: 20px;
+    }
+  }
+}
+
+.form-check-input {
+  // padding-left: 15px;
+}
+
+.form-check-label {
+  padding-right: 25px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn.btn-primary.btn-lg {
+  margin-top: 20px;
 }

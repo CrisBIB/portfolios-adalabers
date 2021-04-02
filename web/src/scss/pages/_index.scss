@@ -1,4 +1,4 @@
-.main {
+.mainIndex {
   &__claim {
     width: 100%;
     display: block;
@@ -9,6 +9,7 @@
       line-height: 20px;
       padding: 40px 20px;
       margin: 0;
+      color: black;
     }
     &--h3 {
       font-size: 13px;
@@ -16,7 +17,7 @@
       line-height: 20px;
       padding: 40px 20px;
       color: $color-white;
-      background: $color-primary;
+      background: $gradient;
       margin: 0;
     }
   }
