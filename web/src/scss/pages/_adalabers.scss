@@ -67,6 +67,12 @@
 .btn.btn-primary.btn-lg {
   margin-top: 20px;
 }
+.btn.btn-primary.btn-lg.baton {
+  max-width: 150px;
+  padding: 5px 5px;
+  font-size: 10px;
+  background: $color-fourth;
+}
 
 .js-upload-image {
   display: none;
