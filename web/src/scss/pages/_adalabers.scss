@@ -30,11 +30,14 @@
     padding: 40px;
     color: $color-primary;
     font-size: 14px;
+    display: block;
     &--label {
       padding: 10px;
       margin: 0;
     }
     &--input {
+      font-size: 11px;
+      flex-wrap: wrap;
       &::placeholder {
         font-size: 11px;
       }
@@ -45,12 +48,15 @@
   }
 }
 
+//Probaría a maquetarlo con GRID: https://books.adalab.es/materiales-front-end-l/modulo-1-html-y-css/maquetacion-web/1_11_sistema_de_grid
+
 .form-check-input {
   // padding-left: 15px;
 }
 
 .form-check-label {
-  padding-right: 25px;
+  padding: 0px 25px 0px 0px;
+  font-size: 9px;
 }
 .button-container {
   display: flex;
@@ -60,4 +66,16 @@
 
 .btn.btn-primary.btn-lg {
   margin-top: 20px;
+}
+
+.js-upload-image {
+  display: none;
+}
+
+.languages {
+  padding: 0px;
+}
+
+.btn.btn-primary.btn-lg {
+  padding: 10px 5px;
 }

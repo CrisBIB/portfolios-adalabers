@@ -16,7 +16,7 @@ Si habéis llegado hasta este repo, y estáis dedicando tiempo a leerme, es que 
 
 Hasta este punto, puedo contar que la idea original, el [diseño creativo](https://www.canva.com/design/DAEYKV2pubY/DDNXDQA-H0fgJRz2_3Cukg/watch?utm_content=DAEYKV2pubY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton), el [planteamiento](https://www.canva.com/design/DAEahIQhW34/WuqfFapgLl14bHB92lVjCA/view?utm_content=DAEahIQhW34&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) y el [código](https://github.com/CrisBIB/portfolio-women-tech/tree/dev/web/src) son ©CrisBIB. Sin embargo, compañeras y profes de Adalab, y algún que otro front-end amigo me han ofrecido sus conocimientos, orientaciones y opiniones como desarrolladores y potenciales usuarias. ¡Gracias comunidad!
 
-En la estructura de carpetas actual, se se puede ver, estoy utilizando HTML5 y SASS y JS para el desarrollo front-end:
+En la estructura de carpetas actual, se puede ver que estoy utilizando HTML5, SASS y JS para el desarrollo front-end:
 
     ├── server
     │ ├── data
@@ -59,14 +59,13 @@ En la estructura de carpetas actual, se se puede ver, estoy utilizando HTML5 y S
     ├── .gitignore
     ├── README.md
 
-Algo de back-end ya habréis intuido. Aquí estará el mayor reto, junto con el testing. Pero lo sacaré adelante, solo necesito tiempo y confianza (sobretodo propia).
+Algo de back-end ya habréis intuido. Aquí estará el mayor reto, junto con el testing. Pero lo sacaré adelante, solo necesito tiempo y confianza.
 
 ## Hola visitantes!
 
 Visitantes... pronto tendré más que mostrar.
 
-<!--```
- Delicious Profile Card
+<!--Delicious Profile Card
 
  Si quieres instalar y ejecutar el proyecto completo, sigue los siguientes pasos:
 
@@ -77,71 +76,4 @@ Visitantes... pronto tendré más que mostrar.
    Si quieres probar o modificar la parte del front-end con React:
 5. Entra en la carpeta `/web/`
 6. Ejecuta npm install
-7. Para lanzar sólo la parte front-end del proyecto, ejecuta `npm start` dentro de la carpeta `/web/`
-
-├── node_modules
-├── public
-├── src
-├── view/pages
-├── web
-│   ├── node_modules
-│   ├── public
-│   ├── src
-│   │   ├── components
-│   │   │   ├── App.js
-│   │   │   ├── CardPage.js
-│   │   │   ├── Collapsable.js
-│   │   │   ├── Design.js
-│   │   │   ├── Fill.js
-│   │   │   ├── Footer.js
-│   │   │   ├── Form.js
-│   │   │   ├── GetAvatar.js
-│   │   │   ├── Header.js
-│   │   │   ├── Input.js
-│   │   │   ├── LandingPage.js
-│   │   │   ├── Main.js
-│   │   │   ├── Palettes.js
-│   │   │   ├── PhotoCard.js
-│   │   │   ├── Reset.js
-│   │   │   ├── Share.js
-│   │   │   ├── ShareCreated.js
-│   │   │   └── ShareFail.js
-│   │   ├── images
-│   │   ├── services
-│   │   │   ├── api.js
-│   │   │   └── localStorage.js
-│   │   ├── stylesheets
-│   │   │   ├── core
-│   │   │   │   ├── _functions.scss
-│   │   │   │   ├── _mixins.scss
-│   │   │   │   ├── _reset.scss
-│   │   │   │   └── _variables.scss
-│   │   │   ├── layout
-│   │   │   │   ├── _collapsable.scss
-│   │   │   │   ├── _designSection.scss
-│   │   │   │   ├── _fillSection.scss
-│   │   │   │   ├── _footer.scss
-│   │   │   │   ├── _formSection.scss
-│   │   │   │   ├── _getAvatar.scss
-│   │   │   │   ├── _header.scss
-│   │   │   │   ├── _mainHome.scss
-│   │   │   │   ├── _mainprofile.scss
-│   │   │   │   ├── _profile.scss
-│   │   │   │   ├── _resetSection.scss
-│   │   │   │   └── _shareSection.scss
-│   │   │   ├── pages
-│   │   │   │   └── index.scss
-│   │   │   ├── App.scss
-│   │   │   └── index.scss
-│   │   └── index.js
-│   ├── .gitignore
-│   ├── desktop.ini
-│   ├── package-lock.json
-│   └── package.json
-├── .gitignore
-├── README.mde
-├── desktop.ini
-├── package-lock.json
-└── package.json
-```
- -->
+7. Para lanzar sólo la parte front-end del proyecto, ejecuta `npm start` dentro de la carpeta `/web/` -->

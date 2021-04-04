@@ -37,6 +37,14 @@
     flex-direction: column;
     justify-content: center;
     list-style: none;
+    &--link {
+      outline: none;
+      color: $color-white;
+      &:active {
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
     &--icon {
       width: 28px;
       margin-right: 13px;

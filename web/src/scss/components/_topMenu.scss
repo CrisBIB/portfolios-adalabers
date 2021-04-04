@@ -1,9 +1,10 @@
 .topMenu {
   &__list {
     color: $color-fourth;
-    display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
@@ -14,15 +15,18 @@
     padding: 10px 0;
     z-index: 1;
     &--items {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: auto;
+      text-align: center;
+    }
+    &--links {
+      outline: none;
+      color: $color-secondary;
+      &:active {
+        text-decoration: none;
+        color: $color-secondary;
+      }
     }
     &--icon {
       width: 28px;
-      margin: auto;
-      align-self: center;
       padding-bottom: 10px;
     }
   }
