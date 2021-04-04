@@ -5,28 +5,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolios Adalabers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
 </head>
 
-<body>
-    <div class="visitors_page">
-        <nav class="topMenu__list">
-            <ul class="topMenu">
-                <li class="topMenu__list--company">EmpresaS</li>
-                <li class="topMenu__list--adalaber">Adalabers</li>
-                <li class="topMenu__list--visitor">Visitantes</li>
+<body class="visitors_page">
+    <header>
+        <nav class="topMenu">
+            <ul class="topMenu__list">
+                <li class="topMenu__list--items">
+                    <img class="topMenu__list--icon" src="./assets/images/companyIcon.png" alt="">
+                    <p>Company</p>
+                </li>
+                <li class="topMenu__list--items">
+                    <img class="topMenu__list--icon" src="./assets/images/adalaberIcon.png" alt="">
+                    <p>Adalaber</p>
+                </li>
+                <li class="topMenu__list--items">
+                    <img class="topMenu__list--icon" src="./assets/images/visitorIcon.png" alt="">
+                    <p>Visitor</p>
+
+
+                </li>
             </ul>
         </nav>
-        
-        <footer class="footer">
-            <small class="footer__left">CrisBIB &copy; 2021</small>
-            <small class="footer__right">Con el apoyo de:<img class="footer__right--logo" src="./assets/images/logo-adalab.png"
-                    alt="logo adalab" /></small>
-        </footer>
-    </div>
+    </header>
+    <main class="mainVisitors">
+        <section class="mainVisitors__genderGap">
+            <h3 class="mainVisitors__genderGap--title">¿Sabías que....</h3>
+            <h4 class="mainVisitors__genderGap--subtitle">el porcentaje de programadoras en España no supera el 15% ?</h4>
+            <h5 class="mainVisitors__genderGap--result">Esto es lo que se conoce como brecha de género en el sector
+                tecnológico.
+            </h5>
+        </section>
+        <section class="mainVisitors__noGenderGap">
+            <h3 class="mainVisitors__noGenderGap--title">Si lo superásemos...</h3>
+            <div class="mainVisitors__noGenderGap--scenario">
+                <p>Habría más mujeres en las carreras de ciencias y tecnología, y en puestos técnicos y políticos
+                    contribuyendo
+                    a desarrollar la sociedad de la información y del conocimiento.</p>
+                <small>Libro Blanco de las mujeres en el ámbito tecnológico
+                    Ministerio de Economía y Empresa</small>
+            </div>
+            <div class="mainVisitors__noGenderGap--scenario">
+                <p>Se reducirían los sesgos de género en los sistemas de Inteligencia Artificial o en los algoritmos de los
+                    motores de búsqueda</p>
+                <small>Por ejemplo, daría igual buscar
+                    desarrolladora que desarrollado en LinkedIN</small>
+            </div>
+            <div class="mainVisitors__noGenderGap--scenario">
+                <p>Nuestro PIB crecería, del mismo modo en que lo hizo cuando las mujeres comenzaron a incorporarse al
+                    mercado
+                    laboral</p>
+                <small>Informe "Women in the digital age"
+                    Publications Office of the EU (europa.eu)</small>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <small class="footer__left">CrisBIB &copy; 2021</small>
+        <small class="footer__right">Con el apoyo de:<img class="footer__right--logo" src="./assets/images/logo-adalab.png"
+                alt="logo adalab" /></small>
+    </footer>
+
     <script src="./assets/js/main.js"></script>
 </body>
 

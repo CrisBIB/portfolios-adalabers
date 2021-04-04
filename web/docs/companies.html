@@ -5,28 +5,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolios Adalabers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
 </head>
 
-<body>
-    <div class="companies_page">
-        <nav class="topMenu__list">
-            <ul class="topMenu">
-                <li class="topMenu__list--company">EmpresaS</li>
-                <li class="topMenu__list--adalaber">Adalabers</li>
-                <li class="topMenu__list--visitor">Visitantes</li>
+<body class="companies_page">
+    <header>
+        <nav class="topMenu">
+            <ul class="topMenu__list">
+                <li class="topMenu__list--items">
+                    <img class="topMenu__list--icon" src="./assets/images/companyIcon.png" alt="">
+                    <p>Company</p>
+                </li>
+                <li class="topMenu__list--items">
+                    <img class="topMenu__list--icon" src="./assets/images/adalaberIcon.png" alt="">
+                    <p>Adalaber</p>
+                </li>
+                <li class="topMenu__list--items">
+                    <img class="topMenu__list--icon" src="./assets/images/visitorIcon.png" alt="">
+                    <p>Visitor</p>
+
+
+                </li>
             </ul>
         </nav>
-        
-        <footer class="footer">
-            <small class="footer__left">CrisBIB &copy; 2021</small>
-            <small class="footer__right">Con el apoyo de:<img class="footer__right--logo" src="./assets/images/logo-adalab.png"
-                    alt="logo adalab" /></small>
-        </footer>
-    </div>
+    </header>
+    <main class="mainCompanies">
+        <section class="mainCompanies__claim">
+            <h2 class="mainCompanies__claim--number">4</h2>
+            <h4 class="mainCompanies__claim--text">Motivos por los que acertarás si contratas a una adalaber</h4>
+        </section>
+        <section class="mainCompanies__reasons">
+            <ol>
+                <li class="mainCompanies__reasons--items"><span class="mainCompanies__reasons--number">1</span>
+                    <p class="mainCompanies__reasons--text">Se han convertido en desarrolladoras front-end en 12 semanas. No
+                        hay
+                        duda de que destacan por su
+                        motivación, compromiso y perseverancia.</p>
+                </li>
+                <li class="mainCompanies__reasons--items"><span class="mainCompanies__reasons--number">2</span>
+                    <p class="mainCompanies__reasons--text">Han decido darle un giro de 360º a su carrera profesional, y
+                        abrazar
+                        la tecnología. Quieren algo
+                        más que
+                        ser usuarias. Quieren formar parte del cambio que el desarrollo tecnológico trae a nuestras vidas.
+                    </p>
+                </li>
+                <li class="mainCompanies__reasons--items"><span class="mainCompanies__reasons--number">3</span>
+                    <p class="mainCompanies__reasons--text">Saben sacarle el máximo partido al conocimiento que tienen y los
+                        recursos de los que disponen. Su bagaje
+                        profesional previo es fortaleza, es experiencia y es valor diferencial.
+                    </p>
+                </li>
+                <li class="mainCompanies__reasons--items">
+                    <span class="mainCompanies__reasons--number">4</span>
+                    <p class="mainCompanies__reasons--text">El futuro es diverso y digital. Contar con adalabers en tu
+                        equipo
+                        hará que los proyectos tengan un extra
+                        de creatividad e innovación.</p>
+                </li>
+            </ol>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <small class="footer__left">CrisBIB &copy; 2021</small>
+        <small class="footer__right">Con el apoyo de:<img class="footer__right--logo" src="./assets/images/logo-adalab.png"
+                alt="logo adalab" /></small>
+    </footer>
+
     <script src="./assets/js/main.js"></script>
 </body>
 
