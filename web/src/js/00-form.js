@@ -9,3 +9,5 @@ const hadleform = (ev) => {
 };
 
 formElement.addEventListener("submit", hadleform);
+
+module.exports = {};
