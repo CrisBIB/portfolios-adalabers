@@ -6,6 +6,8 @@
       "previous_job": "Psicóloga y técnica de proyectos sociales.",
       "power": "Mi súper poder es... escucho atenta, pienso tranquila y tomo decisiones segura.",
       "programming_languages": ["HTLM Y CSS", "JS", "REACT","NODE JS", "SQLite"],
+      "photo": "../../../web/src/images/cristina.png",
+      "portrait": "../../../web/src/images/portraitCristina.png",
       "portfolio": "https://github.com/CrisBIB"
     },
     {
@@ -15,6 +17,8 @@
       "previous_job": "Fotógrafa y comunicadora on-offline.",
       "power": "Mi super poder es… tender puentes entre clientes y técnicos a modo de traductora simultánea.",
       "programming_languages": ["HTLM Y CSS", "JS", "REACT","NODE JS", "SQLite"],
+      "photo": "../../../web/src/images/berta.png",
+      "portrait":"../../../web/src/images/portraitBerta.png",
       "portfolio": "https://github.com/bertapsasn"
     },
     {
@@ -24,6 +28,8 @@
       "previous_job": "",
       "power": "",
       "programming_languages": ["HTLM Y CSS", "JS", "REACT","NODE JS", "SQLite"],
+      "photo": "../../../web/src/images/marta.png",
+      "portrait": "../../../web/src/images/portraitMarta.png",
       "portfolio": "https://github.com/Martcacio"
     }
-  ]
+]
