@@ -125,7 +125,6 @@
   border-radius: 50%;
   position: absolute;
   z-index: 1;
-  /*   left: 0px; */
   top: 0px;
   -webkit-box-shadow: 3px 0 3px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 3px 0 3px 0 rgba(0, 0, 0, 0.2);
@@ -147,11 +146,10 @@
   color: rgba(255, 255, 255, 0.6);
   top: 8px;
   left: 4px;
-  opacity: 0 /* Ocultamos este elemento */;
+  opacity: 0;
   transition: all 0.25s ease 0.25s;
 }
 
-/* Cuando esté checkeado cambiamos la opacidad a 1 y lo mostramos */
 .content-input input[type="checkbox"]:checked + a::after {
   opacity: 1;
 }
