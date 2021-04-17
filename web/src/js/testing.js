@@ -1,4 +1,4 @@
-function getSquareArea(a, b) {
+/* function getSquareArea(a, b) {
   if (a === undefined) {
     return 0;
   } else {
@@ -14,3 +14,4 @@ module.exports = {
   getSquareArea,
   getTriangleArea,
 };
+ */

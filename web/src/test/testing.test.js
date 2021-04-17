@@ -13,3 +13,27 @@ test("el área de un cuadrado de lado 3 es 9", () => {
 test("el área de un triángulo de altura y base 3 es 4.5", () => {
   expect(testing.getTriangleArea(3, 3)).toBe(4.5);
 });
+
+test("Compr validador del nombre revisa txtos vacios", () => {
+  const name = "";
+  const error = verifyName(name);
+  expect(error).toBe("EL nombre no puede ser quedarse vacio");
+});
+
+test("Compr validador del nombre revisa txtos vacios", () => {
+  const name = "a";
+  const error = verifyName(name);
+  expect(error).toBe("EL nombre no puede ser quedarse vacio");
+});
+
+test("Compr validador del nombre revisa txtos vacios", () => {
+  const name = "Cristina4";
+  const error = verifyName(name);
+  expect(error).toBe("EL nombre no puede ser quedarse vacio");
+});
+
+test("Compr validador del nombre sea correctos", () => {
+  const name = "Cristina Blanco";
+  const error = verifyName(name);
+  expect(error).toBe("");
+});

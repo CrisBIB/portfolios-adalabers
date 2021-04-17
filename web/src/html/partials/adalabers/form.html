@@ -1,0 +1,105 @@
+<form class="mainAdalabers__form form-group js-form" id="form">
+    <label class="mainAdalabers__form--label" for="nickName">1. Tu nombre o nickName</label>
+    <input class="js-input js-input-text js-input-name mainAdalabers__form--input form-control" type="text"
+        name="nickName" placeholder="Ej. CrisBIB">
+    <label class="mainAdalabers__form--label" for="currentlyProfession">2. Tu profesión actual y empresa</label>
+    <textarea class="js-input js-input-text js-input-currentJob  mainAdalabers__form--input form-control" type="text"
+        name="currentlyProfession"
+        placeholder="Ej. Desarrolladora front-end en búsqueda de su primera oportunidad"></textarea>
+    <label class="mainAdalabers__form--label" for="originalProfession">3. Tu profesión original</label>
+    <textarea class="js-input js-input-text js-input-previousJob mainAdalabers__form--input form-control" type="text"
+        name="originalProfession"
+        placeholder="Ej. Psicóloga y técnica de proyectos en organizaciones sociales"></textarea>
+    <label class="mainAdalabers__form--label" for="power">4. Tu super poder</label>
+    <textarea class="js-input js-input-text js-input-power mainAdalabers__form--input form-control" type="text" rows="3"
+        name="power" placeholder="Ej. Escucho atenta, pienso tranquila y tomo decisiones segura."></textarea>
+    <label class="mainAdalabers__form--label" for="promo">5. Promo Adalab</label>
+    <select class="js-input js-input-text js-input-promo mainAdalabers__form--select form-control" type="text"
+        name="promo">
+        <option value=""></option>
+        <option value="Promo A">Promo A</option>
+        <option value="Promo B">Promo B</option>
+        <option value="Promo C">Promo C</option>
+        <option value="Promo D">Promo D</option>
+        <option value="Promo E">Promo E</option>
+        <option value="Promo F">Promo F</option>
+        <option value="Promo G">Promo G</option>
+        <option value="Promo H">Promo H</option>
+        <option value="Promo I">Promo I</option>
+        <option value="Promo J">Promo J</option>
+        <option value="Promo K">Promo K</option>
+        <option value="Promo L">Promo L</option>
+    </select>
+
+    <label class="mainAdalabers__form--label" for="languages">6. Lenguajes y librerías que manejas</label>
+    <div class="checkBoxes-container">
+        <label for="html5" class="mainAdalabers__form--checkLabel">HTML5
+        </label>
+        <input type="checkbox" id="html5"
+            class="js-input js-input-text js-input-languages mainAdalabers__form--input form-check-input"
+            name="languages" value="html5">
+        <label for="css3" class="mainAdalabers__form--checkLabel">CSS3</label>
+        <input type="checkbox" id="css3"
+            class="js-input js-input-text js-input-languages  mainAdalabers__form--input form-check-input"
+            name="languages" value="css3">
+        <label for="js" class="mainAdalabers__form--checkLabel">JavaScript</label>
+        <input type="checkbox" id="js"
+            class="js-input js-input-text js-input-languages  mainAdalabers__form--input form-check-input"
+            name="languages" value="javascript">
+        <label for="react" class="mainAdalabers__form--checkLabel">React</label>
+        <input type="checkbox" id="react"
+            class="js-input js-input-text js-input-languages  mainAdalabers__form--input form-check-input"
+            name="languages" value="react">
+        <label for="angular" class="mainAdalabers__form--checkLabel">Angular</label>
+        <input type="checkbox" id="angular"
+            class="js-input js-input-text js-input-languages  mainAdalabers__form--input form-check-input"
+            name="languages" value="angular">
+        <label for="node.js" class="mainAdalabers__form--checkLabel">Node.js</label>
+        <input type="checkbox" id="node.js"
+            class="js-input js-input-text js-input-languages  mainAdalabers__form--input form-check-input"
+            name="languages" value="node.js">
+        <label for="node.js" class="mainAdalabers__form--checkLabel">SQL</label>
+        <input type="checkbox" id="SQL"
+            class="js-input js-input-text js-input-languages  mainAdalabers__form--input form-check-input"
+            name="languages" value="SQL">
+        <label for="node.js" class="mainAdalabers__form--checkLabel">Python</label>
+        <input type="checkbox" id="python"
+            class="js-input js-input-text js-input-languages  mainAdalabers__form--input form-check-input"
+            name="languages" value="python">
+        <div>
+            <span for="others" class="mainAdalabers__form--checkLabel othersLabel">Otros</span><button
+                class="mainAdalabers__form--plus-button js-plusButton">+</button>
+        </div>
+        </label>
+        <label class="mainAdalabers__form--label" for="working">7. ¿Trabajas actualmente?</label>
+        <div class="elements-container">
+            <div>
+                <label for="work">Sí</label>
+                <input type="radio" id="employed" name="working" value="yes"
+                    class="js-input js-input-text js-input-employed">
+            </div>
+            <div>
+                <label for="nonEmployed">No</label>
+                <input type="radio" id="nonEmployed" value="no" name="working"
+                    class="js-input js-input-text js-input-employed" checked>
+            </div>
+        </div>
+        <span class="mainAdalabers__form--label">8. Tu foto de perfil</span>
+        <div class="elements-container">
+            <label for="photo" class="btn btn-primary btn-lg js-button baton">Añadir foto</label>
+            <input type="file" id="photo" class="js-upload-image">
+            <div class="preview preview__photo"></div>
+        </div>
+        <span class="mainAdalabers__form--label">9. Imagen de fondo</span>
+        <div class="elements-container">
+            <label for="background" class="btn btn-primary btn-lg js-button baton">Añadir fondo</label>
+            <input type="file" id="background" class="js-upload-image">
+            <div class="preview preview__background"></div>
+        </div>
+        <label for="portfolio" class="mainAdalabers__form--label">10. Link a tu portfolio</label>
+        <input id="portfolio" class="js-input js-input-text js-input-portfolio mainAdalabers__form--input form-control"
+            type="text" name="portfolio" placeholder="https://github.com/CrisBIB">
+        <div class="mainAdalabers__form--button">
+            <button class="btn btn-primary btn-lg js-buttonPrev">Previsualización</button>
+        </div>
+</form>

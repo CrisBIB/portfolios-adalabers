@@ -5,7 +5,9 @@
       "current_job": "Programadora Front-End",
       "previous_job": "Psicóloga y técnica de proyectos sociales.",
       "power": "Mi súper poder es... escucho atenta, pienso tranquila y tomo decisiones segura.",
+      "promo": "Promo L",
       "programming_languages": ["HTLM Y CSS", "JS", "REACT","NODE JS", "SQLite"],
+      "employed": "No",
       "photo": "../../../web/src/images/cristina.png",
       "portrait": "../../../web/src/images/portraitCristina.png",
       "portfolio": "https://github.com/CrisBIB"
@@ -16,7 +18,9 @@
       "current_job": "Programadora Front-End",
       "previous_job": "Fotógrafa y comunicadora on-offline.",
       "power": "Mi super poder es… tender puentes entre clientes y técnicos a modo de traductora simultánea.",
+      "promo": "Promo L",
       "programming_languages": ["HTLM Y CSS", "JS", "REACT","NODE JS", "SQLite"],
+      "employed": "No",
       "photo": "../../../web/src/images/berta.png",
       "portrait":"../../../web/src/images/portraitBerta.png",
       "portfolio": "https://github.com/bertapsasn"
@@ -25,9 +29,11 @@
       "id": "3",
       "nick_name": "Marta Cacio",
       "current_job": "Programadora Front-End",
-      "previous_job": "",
-      "power": "",
+      "previous_job": "Diseñadora ux/ui",
+      "power": "Mi super poder es… la creatividad, ya sea en el entorno laboral o el personal me gusta mucho crear cosas y que queden bonitas",
+      "promo": "Promo L",
       "programming_languages": ["HTLM Y CSS", "JS", "REACT","NODE JS", "SQLite"],
+      "employed": "No",
       "photo": "../../../web/src/images/marta.png",
       "portrait": "../../../web/src/images/portraitMarta.png",
       "portfolio": "https://github.com/Martcacio"
