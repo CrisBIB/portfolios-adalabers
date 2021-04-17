@@ -32,7 +32,7 @@
     font-size: 14px;
     display: block;
     &--label {
-      padding: 10px;
+      padding: 10px 0;
       margin: 5px;
     }
     &--checkLabel {
@@ -46,16 +46,10 @@
         font-size: 11px;
       }
     }
-    &--plus-button {
-      width: 15px;
-      height: 15px;
-      color: $color-white;
-      background-color: $color-fourth;
-      border: none;
-      margin: 0;
-    }
     &--button {
       margin: 20px;
+      display: flex;
+      justify-content: center;
     }
   }
 }
@@ -64,13 +58,14 @@
 }
 .elements-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin: 5px;
 }
 .preview {
   border: solid 1px $color-primary;
   height: 28px;
+  background-size: cover;
   &__photo {
     width: 30px;
   }
@@ -78,6 +73,85 @@
     width: 60px;
   }
 }
-.othersLabel {
-  padding-right: 5px;
+.others {
+  display: flex;
+  align-items: center;
+  &__label {
+    margin: 0;
+    font-size: 10px;
+    padding: 5px 5px 0 0;
+  }
+  &__button {
+    width: 15px;
+    height: 15px;
+    font-size: 9px;
+    color: $color-white;
+    padding-top: 2px;
+    background-color: $color-secondary;
+    border: none;
+    margin: 0;
+  }
+}
+
+.content-input input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+}
+.content-input {
+  position: relative;
+  margin: 5px;
+  padding: 10px 0;
+  display: block;
+}
+.content-input input + a {
+  background: #f0f0f0;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 52px;
+  height: 30px;
+  border-radius: 15px;
+}
+.content-input input[type="checkbox"] + a::before {
+  content: "";
+  width: 26px;
+  height: 26px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  /*   left: 0px; */
+  top: 0px;
+  -webkit-box-shadow: 3px 0 3px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+.content-input input[type="checkbox"]:checked + a::before {
+  left: 22px;
+  -webkit-box-shadow: -3px 0 3px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 0 -3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content-input input[type="checkbox"]:checked + a {
+  background: $color-secondary;
+}
+
+.content-input input[type="checkbox"] + a::after {
+  content: "Sí";
+  position: absolute;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  top: 8px;
+  left: 4px;
+  opacity: 0 /* Ocultamos este elemento */;
+  transition: all 0.25s ease 0.25s;
+}
+
+/* Cuando esté checkeado cambiamos la opacidad a 1 y lo mostramos */
+.content-input input[type="checkbox"]:checked + a::after {
+  opacity: 1;
 }
