@@ -1,25 +1,24 @@
 "use strict";
 
 const formElement = document.querySelector(".js-form");
-const inputElement = document.querySelectorAll(".js-input");
-
-const updateAllInputs = (ev) => {
-  saveDataInLS();
-  if (ev.currentTarget.name === "name") {
-    const error = verifyName(ev.currentTarget.value);
-
-    document.querySelector(".").innerHTML = error;
-  }
-};
-
-const inputTextElements = document.querySelectorAll(".js-input-text");
-
-for (const inputTextElement of inputTextElements) {
-  inputTextElement.addEventListener("change", updateAllInputs);
-}
+const inputElements = document.querySelectorAll(".js-input");
 
 const hadleForm = (ev) => {
   ev.preventDefault();
 };
 
 formElement.addEventListener("submit", hadleForm);
+
+const handleInputs = (ev) => {
+  saveDataInLS();
+  /*   if (ev.currentTarget.name === "name") {
+    const error = verifyName(ev.currentTarget.value);
+
+    document.querySelector(".").innerHTML = error;
+  } */
+};
+const updateAllInputs = () => {
+  for (const inputElement of inputElements) {
+    inputElement.addEventListener("change", handleInputs);
+  }
+};
