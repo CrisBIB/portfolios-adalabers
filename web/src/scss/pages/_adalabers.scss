@@ -30,34 +30,54 @@
     padding: 40px;
     color: $color-primary;
     font-size: 14px;
+    display: block;
     &--label {
       padding: 10px;
-      margin: 0;
+      margin: 5px;
+    }
+    &--checkLabel {
+      padding: 0px 25px 0px 0px;
+      font-size: 10px;
     }
     &--input {
+      font-size: 11px;
+      flex-wrap: wrap;
       &::placeholder {
         font-size: 11px;
       }
+    }
+    &--plus-button {
+      width: 15px;
+      height: 15px;
+      color: $color-white;
+      background-color: $color-fourth;
+      border: none;
+      margin: 0;
     }
     &--button {
       margin: 20px;
     }
   }
 }
-
-.form-check-input {
-  // padding-left: 15px;
+.js-upload-image {
+  display: none;
 }
-
-.form-check-label {
-  padding-right: 25px;
-}
-.button-container {
+.elements-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  margin: 5px;
 }
-
-.btn.btn-primary.btn-lg {
-  margin-top: 20px;
+.preview {
+  border: solid 1px $color-primary;
+  height: 28px;
+  &__photo {
+    width: 30px;
+  }
+  &__background {
+    width: 60px;
+  }
+}
+.othersLabel {
+  padding-right: 5px;
 }

@@ -1,0 +1,26 @@
+.btn.btn-primary.btn-lg {
+  background-color: $color-secondary;
+  width: 90%;
+  box-shadow: $color-shadow1;
+  margin: 10px auto;
+  padding: 20px 5px;
+  font-size: 16px;
+  border: none;
+  &:hover {
+    background-color: rgba($color-secondary, 0.7);
+  }
+  &:active {
+    background-color: $color-secondary;
+    border-color: $color-secondary;
+    box-shadow: none;
+  }
+}
+.btn.btn-primary.btn-lg.baton {
+  max-width: 150px;
+  padding: 5px 5px;
+  font-size: 10px;
+  background: $color-fourth;
+}
+.btn.btn-primary.btn-lg {
+  padding: 10px 5px;
+}

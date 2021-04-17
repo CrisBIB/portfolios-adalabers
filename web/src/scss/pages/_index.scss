@@ -37,27 +37,17 @@
     flex-direction: column;
     justify-content: center;
     list-style: none;
+    &--link {
+      outline: none;
+      color: $color-white;
+      &:active {
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
     &--icon {
       width: 28px;
       margin-right: 13px;
     }
-  }
-}
-
-.btn.btn-primary.btn-lg {
-  background-color: $color-secondary;
-  width: 90%;
-  border-color: $color-secondary;
-  box-shadow: $color-shadow1;
-  margin: 10px auto;
-  padding: 20px 5px;
-  font-size: 16px;
-  &:hover {
-    background-color: rgba($color-secondary, 0.7);
-  }
-  &:active {
-    background-color: $color-secondary;
-    border-color: $color-secondary;
-    box-shadow: none;
   }
 }
