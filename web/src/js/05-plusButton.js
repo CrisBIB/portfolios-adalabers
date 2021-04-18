@@ -19,7 +19,9 @@ const handlePlusButton = (ev) => {
     class="js-input js-input-languages  mainAdalabers__form--input form-check-input js-newLanguage"
     name="languages" value=${inputElement.value} checked>`;
     inputElement.value = "";
+
     const valueNewLanguage = document.querySelector(".js-newLanguage").value;
+
     saveDataInLS();
   };
   inputElement.addEventListener("change", handleInput);

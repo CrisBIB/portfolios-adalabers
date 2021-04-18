@@ -2,7 +2,7 @@
 
 const languageElements = document.querySelectorAll(".js-input-languages");
 
-const employedElements = document.querySelectorAll(".js-input-employed");
+const employedElement = document.querySelector(".js-input-employed");
 
 const getUserData = () => {
   return {
@@ -12,7 +12,7 @@ const getUserData = () => {
     power: document.querySelector(".js-input-power").value,
     promo: document.querySelector(".js-input-promo").value,
     programming_languages: languagesChecked(),
-    employed: document.querySelector(".js-input-employed:checked").value,
+    employed: document.querySelector(".js-input-employed").checked,
     photo: photo,
     background: background,
     portfolio: document.querySelector(".js-input-portfolio").value,
@@ -52,11 +52,10 @@ const getDataFromLS = () => {
       );
     }
 
-    for (const employedElement of employedElements) {
-      if (employedElement.value === userData.employed) {
-        employedElement.checked = true;
-      }
+    if (userData.employed === true) {
+      employedElement.checked = true;
     }
+
     photo = userData.photo;
     background = userData.background;
     document.querySelector(".js-input-portfolio").value = userData.portfolio;
