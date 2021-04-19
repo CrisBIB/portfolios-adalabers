@@ -35,10 +35,6 @@
       padding: 10px 0;
       margin: 5px;
     }
-    &--checkLabel {
-      padding: 0px 25px 0px 0px;
-      font-size: 10px;
-    }
     &--input {
       font-size: 11px;
       flex-wrap: wrap;
@@ -46,21 +42,35 @@
         font-size: 11px;
       }
     }
-    &--button {
+    &--languageLabel {
+      padding: 0px 25px 0px 0px;
+      font-size: 10px;
+    }
+    &--newLanguages {
+      display: flex;
+      font-size: 11px;
+    }
+    &--newLanguageLabel {
+      border: solid 1px $color-fourth;
+      padding: 2px 5px;
+      border-radius: 10%;
+      margin: 10px;
+    }
+    &--sendButton {
       margin: 20px;
       display: flex;
       justify-content: center;
+    }
+    &--imageButtons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 5px;
     }
   }
 }
 .js-upload-image {
   display: none;
-}
-.elements-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 5px;
 }
 .preview {
   border: solid 1px $color-primary;
@@ -81,7 +91,7 @@
     font-size: 10px;
     padding: 5px 5px 0 0;
   }
-  &__button {
+  &__addButton {
     width: 15px;
     height: 15px;
     font-size: 9px;
@@ -90,6 +100,9 @@
     background-color: $color-secondary;
     border: none;
     margin: 0;
+  }
+  &__addInput {
+    margin: 10px 0;
   }
 }
 
@@ -152,4 +165,8 @@
 
 .content-input input[type="checkbox"]:checked + a::after {
   opacity: 1;
+}
+.fa-times {
+  margin-left: 5px;
+  color: $color-primary;
 }

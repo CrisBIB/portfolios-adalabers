@@ -12,6 +12,7 @@ const getUserData = () => {
     power: document.querySelector(".js-input-power").value,
     promo: document.querySelector(".js-input-promo").value,
     programming_languages: languagesChecked(),
+    more_programming_languages: newLanguagesArray,
     employed: document.querySelector(".js-input-employed").checked,
     photo: photo,
     background: background,
@@ -45,17 +46,17 @@ const getDataFromLS = () => {
       userData.previous_job;
     document.querySelector(".js-input-power").value = userData.power;
     document.querySelector(".js-input-promo").value = userData.promo;
-
     for (const languageElement of languageElements) {
       languageElement.checked = userData.programming_languages.includes(
         languageElement.value
       );
     }
-
-    if (userData.employed === true) {
+    for (const language of userData.more_programming_languages) {
+      paintNewLanguages(language);
+    }
+    if (userData.employed) {
       employedElement.checked = true;
     }
-
     photo = userData.photo;
     background = userData.background;
     document.querySelector(".js-input-portfolio").value = userData.portfolio;
