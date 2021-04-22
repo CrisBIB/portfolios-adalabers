@@ -9,6 +9,8 @@
         integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
 </head>
@@ -17,6 +19,12 @@
     <header>
         <nav class="topMenu">
             <ul class="topMenu__list">
+                <li class="topMenu__list--items">
+                    <a class="topMenu__list--links" href="./index.html">
+                        <img class="topMenu__list--icon" src="./assets/images/adalaberIcon.png" alt="">
+                        <p>Home</p>
+                    </a>
+                </li>
                 <li class="topMenu__list--items">
                     <a class="topMenu__list--links" href="./adalabers.html">
                         <img class="topMenu__list--icon" src="./assets/images/adalaberIcon.png" alt="">
@@ -77,9 +85,9 @@
         <section class="mainCompanies__dataBase">
             <div class="mainCompanies__dataBase--filters">
                 <label for="promo"></label>
-                <select name="promo" id="promo">
+                <select class="form-select form-select-lg mb-3" name="promo" id="promo">
                     <!-- Futuro: el filtro contendrá las promos de aquellas adalabers que hayan creado tarjeta -->
-                    <option value=""></option>
+                    <option selected>Selecciona una promoción</option>
                     <option value="Promo A">Promo A</option>
                     <option value="Promo B">Promo B</option>
                     <option value="Promo C">Promo C</option>
@@ -94,12 +102,15 @@
                     <option value="Promo L">Promo L</option>
                 </select>
             </div>
-            <label for="working">En activo</label>
-            <select name="working" id="working">
-                <option value="all"></option>
-                <option value="yes">Sí</option>
-                <option value="no">No</option>
-            </select>
+            <div class="mainCompanies__dataBase--filters">
+                <label for="working"></label>
+                <select class="form-select form-select-lg mb-3" name="working" id="working">
+                    <option selected>¿En activo?</option>
+                    <!-- <option value="all"></option> -->
+                    <option value="yes">Sí</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
             <label for="stack">Stack tecnológico</label>
             <!-- Copiar código del formulario (adalabersPage) -->
             <div class="mainCompanies__dataBase--cards js-cards">
@@ -112,7 +123,6 @@
         <small class="footer__right">Con el apoyo de:<img class="footer__right--logo" src="./assets/images/logo-adalab.png"
                 alt="logo adalab" /></small>
     </footer>
-
     <script src="./assets/js/main.js"></script>
 </body>
 
