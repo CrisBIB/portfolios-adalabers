@@ -2,7 +2,6 @@
   font-size: 12px;
   display: block;
   color: $color-white;
-
   &__claim {
     padding: 90px 20px 50px;
     margin-top: 90px;
@@ -24,5 +23,29 @@
   }
   &__reasons {
     background: $gradient2;
+    padding: 20px 20px;
+
+    &--items {
+      list-style-type: none;
+    }
+    &--number {
+      text-align: center;
+      display: block;
+      font-weight: 700;
+      font-size: 40px;
+    }
   }
+  &__dataBase--filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+.mb-3 {
+  width: 85%;
+  padding: 10px 20px;
+  margin-bottom: 0px !important;
+  // justify-content: center;
 }

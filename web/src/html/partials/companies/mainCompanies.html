@@ -37,9 +37,9 @@
     <section class="mainCompanies__dataBase">
         <div class="mainCompanies__dataBase--filters">
             <label for="promo"></label>
-            <select name="promo" id="promo">
+            <select class="form-select form-select-lg mb-3" name="promo" id="promo">
                 <!-- Futuro: el filtro contendrá las promos de aquellas adalabers que hayan creado tarjeta -->
-                <option value=""></option>
+                <option selected>Selecciona una promoción</option>
                 <option value="Promo A">Promo A</option>
                 <option value="Promo B">Promo B</option>
                 <option value="Promo C">Promo C</option>
@@ -54,12 +54,15 @@
                 <option value="Promo L">Promo L</option>
             </select>
         </div>
-        <label for="working">En activo</label>
-        <select name="working" id="working">
-            <option value="all"></option>
-            <option value="yes">Sí</option>
-            <option value="no">No</option>
-        </select>
+        <div class="mainCompanies__dataBase--filters">
+            <label for="working"></label>
+            <select class="form-select form-select-lg mb-3" name="working" id="working">
+                <option selected>¿En activo?</option>
+                <!-- <option value="all"></option> -->
+                <option value="yes">Sí</option>
+                <option value="no">No</option>
+            </select>
+        </div>
         <label for="stack">Stack tecnológico</label>
         <!-- Copiar código del formulario (adalabersPage) -->
         <div class="mainCompanies__dataBase--cards js-cards">

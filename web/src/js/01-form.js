@@ -10,18 +10,18 @@ const hadleForm = (ev) => {
 formElement.addEventListener("submit", hadleForm);
 
 const handleInputs = (ev) => {
-  const inputValue = ev.currentTarget.value;
-  console.log(inputValue);
   saveDataInLS();
-  /*   if (ev.currentTarget.name === "name") {
-    const error = verifyName(ev.currentTarget.value);
 
-    document.querySelector(".").innerHTML = error;
-  } */
+  const inputName = ev.currentTarget.name;
+  const inputValue = ev.currentTarget.value;
+  if (inputName === "name") {
+    const error = verifyName(inputValue);
+    document.querySelector(".js.error").innerHTML = error;
+  }
 };
 const updateAllInputs = () => {
-  console.log(inputElements);
   for (const inputElement of inputElements) {
     inputElement.addEventListener("change", handleInputs);
   }
 };
+const verifyName = (value) => {};

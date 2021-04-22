@@ -2,17 +2,32 @@
 
 .mainVisitors {
   &__genderGap {
+    background: $gradient;
+    padding: 95px 20px 50px;
     &--title {
+      font-size: 12px;
+      display: block;
+      color: $color-white;
     }
     &--subtitle {
+      font-weight: 700;
+      font-size: 20px;
+      color: $color-secondary;
     }
     &--result {
+      font-weight: 700;
+      font-size: 20px;
+      color: white;
     }
   }
   &__noGenderGap {
+    padding: 50px 20px;
+    background: $gradient3;
     &--title {
+      color: white;
     }
     &--scenario {
+      color: white;
     }
   }
 }

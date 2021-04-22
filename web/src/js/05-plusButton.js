@@ -5,8 +5,6 @@ const addLanguageElement = document.querySelector(".js-addLanguage");
 const newLanguagesContainer = document.querySelector(".js-newLanguages");
 let newLanguagesArray = [];
 
-console.log(addLanguageElement);
-
 const handlePlusButton = (ev) => {
   ev.preventDefault();
 
