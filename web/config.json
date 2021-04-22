@@ -22,6 +22,13 @@
     "dest": "public/",
     "dist": "docs/"
   },
+  "jscript": {
+    "src": [
+      "src/jscript/**/*.js"
+    ],
+    "dest": "public/assets/jscript/",
+    "dist": "docs/assets/jscript/"
+  },
   "js": {
     "src": [
       "src/js/**/*.js"
