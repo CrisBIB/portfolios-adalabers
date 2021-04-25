@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-adalabers-server",
+  "version": "1.0.0",
+  "description": "server for my project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install",
+    "build-web": "cd web && npm run docs && cd .. && rm -rf public && mv web/docs public",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrisBIB/portfolios-adalabers.git"
+  },
+  "author": "CrisBIB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrisBIB/portfolios-adalabers/issues"
+  },
+  "homepage": "https://github.com/CrisBIB/portfolios-adalabers#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

@@ -1,6 +1,7 @@
 "use strict";
 
-const fr = new FileReader();
+const frP = new FileReader();
+const frB = new FileReader();
 
 //Photo
 const uploadPhotoBtn = document.querySelector(".js__photo-trigger");
@@ -12,12 +13,12 @@ let photo = "";
 function getPhoto(ev) {
   ev.preventDefault();
   const myFile = ev.currentTarget.files[0];
-  fr.addEventListener("load", writePhoto);
-  fr.readAsDataURL(myFile);
+  frP.addEventListener("load", writePhoto);
+  frP.readAsDataURL(myFile);
 }
 
 function writePhoto() {
-  photo = fr.result;
+  photo = frP.result;
   updatePhoto();
   saveDataInLS();
 }
@@ -44,12 +45,12 @@ let background = "";
 function getBackground(ev) {
   ev.preventDefault();
   const myFile = ev.currentTarget.files[0];
-  fr.addEventListener("load", writeBackground);
-  fr.readAsDataURL(myFile);
+  frB.addEventListener("load", writeBackground);
+  frB.readAsDataURL(myFile);
 }
 
 function writeBackground() {
-  background = fr.result;
+  background = frB.result;
   updateBackground();
   saveDataInLS();
 }
